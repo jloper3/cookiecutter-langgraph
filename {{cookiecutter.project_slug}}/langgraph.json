@@ -1,0 +1,9 @@
+{
+  "graph_module": "{{ cookiecutter.package_name }}.agent",
+  "graph_variable": "graph",
+  "entrypoint": "uvicorn",
+  "env": {
+    "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+    "LANGGRAPH_API_KEY": "${LANGGRAPH_API_KEY}"
+  }
+}

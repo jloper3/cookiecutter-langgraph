@@ -1,0 +1,17 @@
+{
+  "project_name": "My LangGraph Package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "package_name": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "author_name": "Your Name",
+  "author_email": "you@example.com",
+  "github_username": "your_github_handle",
+  "description": "A LangGraph-based agent package with full CI & precommit hygiene",
+  "license": "MIT",
+  "python_version": ">=3.10",
+  "version": "0.1.0",
+  "use_precommit": "y",
+  "use_ci": "y",
+  "langgraph_version": "0.6.0",
+  "langgraph_sdk_version": "0.1.0",
+  "langchain_core_version": ">=0.2.38"
+}
